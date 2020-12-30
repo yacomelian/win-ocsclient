@@ -3,10 +3,26 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Version>0.0.1</Version>
+    <Authors>OCSClient</Authors>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageLicenseFile></PackageLicenseFile>
+    <PackageIcon>icon.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="SharpOSC\Propertiesaaa\" />
+    <Compile Remove="SharpOSC\Propertiesaaa\**" />
+    <EmbeddedResource Remove="SharpOSC\Propertiesaaa\**" />
+    <None Remove="SharpOSC\Propertiesaaa\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="SharpOSC\license.txt" />
+    <None Remove="SharpOSC\license.txt" />
+    <None Include="resources\icons\icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
