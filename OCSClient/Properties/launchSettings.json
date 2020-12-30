@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "OCSClient": {
+      "commandName": "Project",
+      "commandLineArgs": "\"/h2r-graphics/clear\" show"
+    }
+  }
+}
