@@ -14,9 +14,9 @@ El software H2R Graphics tiene una interfaz de comunicación que utiliza el prot
 
 Ejemplos:
  `
- OCSClient.exe 127.0.0.1:8181 /h2r-graphics/lower-third "Title 1"
- OCSClient.exe 192.168.1.33:8181 /h2r-graphics/lower-third "Title 1"
- OCSClient.exe /h2r-graphics/lower-third "Title 1"
+ * OCSClient.exe 127.0.0.1:8181 /h2r-graphics/lower-third "Title 1"
+ * OCSClient.exe 192.168.1.33:8181 /h2r-graphics/lower-third "Title 1"
+ * OCSClient.exe /h2r-graphics/lower-third "Title 1"
  `
 
 Gracias a https://github.com/ValdemarOrn/SharpOSC por sus librerías de OSC.
@@ -35,9 +35,9 @@ H2R Graphics software has a communication interface that uses the Open Sound Con
 
 Examples:
  `
- OCSClient.exe 127.0.0.1:8181 / h2r-graphics / lower-third "Title 1"
- OCSClient.exe 192.168.1.33:8181 / h2r-graphics / lower-third "Title 1"
- OCSClient.exe / h2r-graphics / lower-third "Title 1"
+ * OCSClient.exe 127.0.0.1:8181 / h2r-graphics / lower-third "Title 1"
+ * OCSClient.exe 192.168.1.33:8181 / h2r-graphics / lower-third "Title 1"
+ * OCSClient.exe / h2r-graphics / lower-third "Title 1"
 `
 
  Thanks to https://github.com/ValdemarOrn/SharpOSC for his OSC libraries.
