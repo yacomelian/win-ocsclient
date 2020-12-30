@@ -9,6 +9,7 @@ if ($env:Path -notlike "*"+$appPath+"*") {
 	"SIN MODIFICAR PATH"
 }
 
+<#
 $commands = @(
 	"/h2r-graphics/logo show",
 	"/h2r-graphics/logo hide",
@@ -23,7 +24,7 @@ foreach ($c in $commands)  {
 
 
 exit
-
+#>
 OCSClient.exe /h2r-graphics/logo show
 
 start-sleep 5

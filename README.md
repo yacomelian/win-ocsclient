@@ -1,6 +1,8 @@
-# win-ocsclient
+# OCSclient
 
 ## Spanish
+
+Cliente para Open Sound Control
 
 Este simple programa se realizó de forma rápida en C# para comunicar un software de gestión de comandos táctil denominado  Touch Portal <https://www.touch-portal.com/> y que se usa a través de un dispositivo como tablet o móvil, con la aplicación H2R Graphics <https://heretorecord.com/graphics/>, para así permitir interactuar desde un dispositivo móvil con esta interfaz para el streaming en vivo de eventos.
 
@@ -10,18 +12,25 @@ El software H2R Graphics tiene una interfaz de comunicación que utiliza el prot
 
 
 ### Uso: 
-`OCSClient.exe [host:port] <path> [option]`
+```sh
+OCSClient.exe [host: port] <path> [option]
+```
 
 Ejemplos:
- `
- * OCSClient.exe 127.0.0.1:8181 /h2r-graphics/lower-third "Title 1"
- * OCSClient.exe 192.168.1.33:8181 /h2r-graphics/lower-third "Title 1"
- * OCSClient.exe /h2r-graphics/lower-third "Title 1"
- `
+ ```sh
+ OCSClient.exe 127.0.0.1:8181 /h2r-graphics/lower-third "Title 1"
+ OCSClient.exe 192.168.1.33:8181 /h2r-graphics/lower-third "Title 1"
+ OCSClient.exe /h2r-graphics/lower-third "Title 1"
+ OCSClient.exe /h2r-graphics/clear
+ OCSClient.exe /h2r-graphics/logo show
+ OCSClient.exe /h2r-graphics/logo hide
+ ```
 
 Gracias a https://github.com/ValdemarOrn/SharpOSC por sus librerías de OSC.
 
 ## English
+
+Client for Open Sound Control
 
 This simple program was made quickly in C # to communicate a touch command management software called Touch Portal <https://www.touch-portal.com/> and that is used through a device such as tablet or mobile, with the H2R Graphics application <https://heretorecord.com/graphics/>, in order to allow interaction from a mobile device with this interface for live streaming of events.
 
@@ -31,13 +40,17 @@ H2R Graphics software has a communication interface that uses the Open Sound Con
 
 
 ### Usage
-`OCSClient [host: port] <path> [option]`
-
+```sh
+OCSClient.exe [host: port] <path> [option]
+```
 Examples:
- `
- * OCSClient.exe 127.0.0.1:8181 / h2r-graphics / lower-third "Title 1"
- * OCSClient.exe 192.168.1.33:8181 / h2r-graphics / lower-third "Title 1"
- * OCSClient.exe / h2r-graphics / lower-third "Title 1"
-`
+ ```sh
+ OCSClient.exe 127.0.0.1:8181 /h2r-graphics/lower-third "Title 1"
+ OCSClient.exe 192.168.1.33:8181 /h2r-graphics/lower-third "Title 1"
+ OCSClient.exe /h2r-graphic /lower-third "Title 1"
+ OCSClient.exe /h2r-graphics/clear
+ OCSClient.exe /h2r-graphics/logo show
+ OCSClient.exe /h2r-graphics/logo hide
+```
 
  Thanks to https://github.com/ValdemarOrn/SharpOSC for his OSC libraries.
