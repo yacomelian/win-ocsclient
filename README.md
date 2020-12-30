@@ -9,12 +9,15 @@ La solución viene a complementar la configuración indicada en https://heretore
 El software H2R Graphics tiene una interfaz de comunicación que utiliza el protocolo Open Sound Control (OCS) documentada en <https://heretorecord.com/graphics/docs#osc-control>. Este protocolo realiza una comunicación UDP para el envío de comandos y parámetros. Con OCSClient, se pueden enviar esos comandos para la modificación
 
 
-Uso: OCSClient [host:port] <path> [option]
+### Uso: 
+`OCSClient.exe [host:port] <path> [option]`
 
 Ejemplos:
- OCSClient 127.0.0.1:8181 /h2r-graphics/lower-third "Title 1"
- OCSClient 192.168.1.33:8181 /h2r-graphics/lower-third "Title 1"
- OCSClient /h2r-graphics/lower-third "Title 1"
+ `
+ OCSClient.exe 127.0.0.1:8181 /h2r-graphics/lower-third "Title 1"
+ OCSClient.exe 192.168.1.33:8181 /h2r-graphics/lower-third "Title 1"
+ OCSClient.exe /h2r-graphics/lower-third "Title 1"
+ `
 
 Gracias a https://github.com/ValdemarOrn/SharpOSC por sus librerías de OSC.
 
@@ -27,12 +30,14 @@ The solution complements the configuration indicated at https://heretorecord.com
 H2R Graphics software has a communication interface that uses the Open Sound Control (OCS) protocol documented at <https://heretorecord.com/graphics/docs#osc-control>. This protocol performs UDP communication to send commands and parameters. With OCSClient, you can send those commands for modification
 
 
-Usage: OCSClient [host: port] <path> [option]
+### Usage
+`OCSClient [host: port] <path> [option]`
 
 Examples:
- OCSClient 127.0.0.1:8181 / h2r-graphics / lower-third "Title 1"
- OCSClient 192.168.1.33:8181 / h2r-graphics / lower-third "Title 1"
- OCSClient / h2r-graphics / lower-third "Title 1"
-
+ `
+ OCSClient.exe 127.0.0.1:8181 / h2r-graphics / lower-third "Title 1"
+ OCSClient.exe 192.168.1.33:8181 / h2r-graphics / lower-third "Title 1"
+ OCSClient.exe / h2r-graphics / lower-third "Title 1"
+`
 
  Thanks to https://github.com/ValdemarOrn/SharpOSC for his OSC libraries.
